@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/gambar"
+                android:layout_width="170dp"
+                android:layout_height="250dp"
+                android:src="@color/colorAccent"
+                android:layout_marginBottom="5dp"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/tvProvinsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:text="Nama Provinsi"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@+id/gambar"/>
+
+            <TextView
+                android:id="@+id/tvPositif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Jumlah Positif"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/tvProvinsi"
+                android:textColor="@color/colorPositif"
+                android:layout_toRightOf="@id/gambar"/>
+
+            <TextView
+                android:id="@+id/tvSembuh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Jumlah Sembuh"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/tvPositif"
+                android:textColor="@color/colorAccent"
+                android:layout_toRightOf="@id/gambar"/>
+
+            <TextView
+                android:id="@+id/tvMeninggal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Jumlah Meninggal"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/tvSembuh"
+                android:textColor="@color/colorMeninggal"
+                android:layout_toRightOf="@id/gambar"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/ivCucitangan"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/cuci_tangan"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:id="@+id/ivMasker"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/masker"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:id="@+id/ivSocial"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/social_distancing"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvdeskripsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:textSize="15sp"
+                android:text="@string/deskripsi"
+                android:padding="10dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

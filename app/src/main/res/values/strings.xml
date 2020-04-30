@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Covid Tracker App</string>
+    <string name="credit">Terimakasih kepada Developer dari kawalcorona.com yaitu Mas Teguh Aprianto yang telah menyediakan sebuah API (Application Programming Interface) untuk mengetahui jumlah data Covid-19 yang ada di indonesia. \n Pada saat menjalankan aplikasi ada kemungkinan data tidak tampil atau terdapat error. ini dikarenakan banyaknya pengguna yang mengakses API. silahkan restart aplikasi jika hal ini terjadi.</string>
+    <string name="deskripsi">Jangan lupa selalu cuci tangan dan menggunakan masker ketika keluar rumah dalam keadaan terdesak. Ayo #DirumahAja</string>
+</resources>
